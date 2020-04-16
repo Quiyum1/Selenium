@@ -10,7 +10,7 @@ public class FirstTest {
 
 		driver.get("http://google.com");
 		driver.manage().window().maximize();
-		
+		driver.close();
 	}
 
 }
